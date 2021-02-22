@@ -16,7 +16,8 @@ dicordPasswordBoxName = "password"
 BornYear = "react-select-2-input"
 BornMonth = "react-select-3-input"
 BornDay = "react-select-4-input"
-driver = webdriver.Chrome(executable_path='./chromedriver',desired_capabilities=chrome_options.to_capabilities())
+driver = webdriver.Chrome(executable_path='./chromedriver.exe',desired_capabilities=chrome_options.to_capabilities())
+
 def WriteForm(Email,Username,Password,Bornyear,Bornmonth,Bornday):
     
     driver.get('https://discord.com/register')

@@ -1,3 +1,3 @@
 # DiscordAccGenerator
 ## こうやって打てばおｋ
-### python mainDis.py
+### python dismain.py

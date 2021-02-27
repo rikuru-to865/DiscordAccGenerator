@@ -15,4 +15,4 @@ def randomstring(n):
 
 
 
-DiscordForm.WriteForm(mail,randomstring(5),randomstring(7),random.randrange(1980,2000),random.randrange(1,12),random.randrange(1,30))
+DiscordForm.WriteForm(mail,randomstring(5),randomstring(7),random.randint(1980,2000),random.randint(1,12),random.randint(1,30))
